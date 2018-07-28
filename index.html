@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/index.css"/>
+</head>
+<body>
+	<!-- 顶部部分 -->
+	<div class="header clearfix">
+		<div class="logo">
+					<img src="img/logo.png" alt="logo">	
+			</div>
+		<div class="top clearfix">
+		<div class="top-nav clearfix">
+			<ul class="clearfix">
+				<li class="fl"><a href="#" id="first">首页</a></li>
+				<li class="fl"><a href="#">走进豪城</a></li>
+				<li class="fl"><a href="#">最热资讯</a></li>
+				<li class="fl"><a href="#">楼盘展示</a></li>
+				<li class="fl"><a href="#">招纳贤士</a></li>
+				<li class="fl"><a href="#">物业管理</a></li>
+				<li class="fl"><a href="#">在线下载</a></li>
+				<li class="fl"><a href="#">在线留言</a></li>
+				<li class="fl"><a href="#">联系我们</a></li>
+			</ul>
+			<ul class="clearfix  bottom-nav">
+				<li class="fl"><a href="#">关于我们</a></li>
+				<li class="fl"><a href="#">领导致辞</a></li>
+				<li class="fl"><a href="#">集团架构</a></li>
+				<li class="fl"><a href="#">荣誉资质</a></li>
+				<li class="fl"><a href="#">项目简介</a></li>
+			</ul>
+		</div>
+		</div>
+	</div>
+		
+	
+	<!-- 中间部分 -->
+	<div class="con">
+		<img src="img/house.png" alt="">
+		<ul>
+			<li class="fl"><img src="img/sell-out.png" alt="已售罄"></li>
+			<li class="fl"><img src="img/sell-hot.png" alt="热销"></li>
+			<li class="fl"><img src="img/sell-in.png" alt="已入住"></li>
+		</ul>
+		<div class="con-two">
+		<img src="img/sell-hot.png" alt="热销" id="hot">
+		<img src="img/sell-in.png" alt="已入住" id="in">
+		<img src="img/sell-out.png" alt="已售罄" id="out">
+		<img src="img/A.png" alt="A区" id="a">
+		<img src="img/B.png" alt="B区" id="b">
+		<img src="img/C.png" alt="C区" id="c">
+		</div>
+		
+	</div>
+
+
+	<!-- 底部部分 -->
+	<div class="footer clearfix">
+		<div class="footer-left clearfix">
+			<img src="img/erweima.png" alt="微信二维码">
+			<p>关注微信公共平台<br>豪城生活</p>
+		</div>
+		<div class="footer-middle fl clearfix">
+			<div class="footer-middle-one fl">
+				<h4>新闻中心&nbsp;&nbsp;<span style="color:#9b9b9b">NEWS</span></h4>
+			<ul>
+				<li>
+					<a href="#">
+						<img src="img/sj.png" alt="">
+					恭祝宝鸡豪城房地产开发有限公司网站正式解析上线！
+				</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="img/sj.png" alt="">
+					恭祝宝鸡豪城房地产开发有限公司网站正式解析上线！
+				</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="img/sj.png" alt="">
+					恭祝宝鸡豪城房地产开发有限公司网站正式解析上线！
+				</a>
+			</li>
+				<li>
+					<a href="#">
+						<img src="img/sj.png" alt="">
+					恭祝宝鸡豪城房地产开发有限公司网站正式解析上线！
+				</a>
+			</li>
+			</ul>
+			</div>
+			<div class="footer-middle-two fr">
+				<h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MORE</h4>
+			<ul>
+				<li>2016/03/09</li>
+				<li>2016/03/09</li>
+				<li>2016/03/09</li>
+				<li>2016/03/09</li>
+			</ul>
+		</div>
+			</div>
+			
+		<div class="footer-right fr">
+			<div class="hot-buy">
+				热销组团
+			</div>
+		</div>
+	</div>
+
+	<!-- 页脚部分 -->
+	<div class="bottom">
+		<p class="fl">版权所有：宝鸡豪城房地产开发有限公司&nbsp;&nbsp;陕ICP备*******<br>E-mail:bj_haocheng@126.com&nbsp;&nbsp;传&nbsp;&nbsp;&nbsp;真:0917-3208952&nbsp;&nbsp;&nbsp;&nbsp;公司总机：0971-3208946 3208951 3208138</p>
+		<p class="fr">售楼热线：0971-3668888 3208953 3224430 3283555 3283666<br>3283777 3283888</p>
+	</div>
+	<script type="text/javascript">
+		// 顶部导航部分
+		var Hpage=document.getElementById("first");
+		var Bnav=document.getElementsByClassName("bottom-nav")[0];
+		Hpage.onmouseover=function(){
+			Bnav.style.display="block";
+		}
+		Hpage.onmouseout=function(){
+			Bnav.style.display="none";
+		}
+		// 住房区部分
+		var Con=document.getElementsByClassName("con")[0];
+		var Con_two=document.getElementsByClassName("con-two")[0];
+		Con.onmouseover=function(){
+			Con_two.style.display="block";
+		}
+		Con.onmouseout=function(){
+			Con_two.style.display="none";
+		}
+	</script>
+</body>
+</html>

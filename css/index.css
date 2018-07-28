@@ -1,0 +1,218 @@
+/*
+* @Author: 刘文静
+* @Date:   2018-03-06 18:59:58
+* @Last Modified by:   www
+* @Last Modified time: 2018-03-07 23:43:09
+*/
+/* 初始化浏览器 */
+body{
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+}
+ul,li,img,h4,p{
+	padding: 0;
+	margin: 0;
+	
+}
+li{
+	list-style: none;
+}
+/* 顶部部分 */
+.header{
+	position: relative;
+	margin-left: -960px;
+	margin-bottom: 20px;
+	left: 50%;
+	height: 527px;	
+	background-color: #f8f8f8;
+}
+.header .logo{
+	position: absolute;
+	width: 145px;	
+	height: 95px;	
+	left: 409px;
+	top: 0;
+	z-index: 3;
+}
+.top{
+	width: 1920px;
+	height: 527px;
+	position:absolute;
+	background: url("../img/banner.png");
+	z-index: 2;
+}
+
+.top .top-nav{
+	position: relative;
+	left: 894px;
+	z-index: 3;
+}
+.top-nav ul:nth-child(1) li a{
+	display: inline-block;
+	padding: 43px 17px;
+	text-decoration: none;
+	color: #000;
+	font: 13px microsoft yahei;
+	background-color: rgba(255, 255, 255, 0.8);
+} 
+.top-nav ul:nth-child(1) li a:hover{
+	color: #fff;
+	background-color: #ff0000;
+}
+.top-nav ul:nth-child(2){
+	display:none;
+	width: 1090px;	
+	height: 62px;
+	padding-left: 40px;
+	background-color: #5c3a3d;
+}
+.top-nav ul:nth-child(2) li a{
+	display: inline-block;
+	height: 62px;
+	padding: 0 18px;	
+	text-decoration: none;
+	color: #fff;
+	font: 13px/62px microsoft yahei;
+	background-color:;
+} 
+/* 中间部分 */
+.con{
+	width: 1080px;	
+	height: 535px;	
+	margin: 0 auto;
+	/* background: url("../images/house.png"); */
+	position: relative;
+	overflow: scroll;
+	background-color: #f8f8f8;
+}
+.con ul{
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.con .con-two{
+	display: none;
+}
+.con #hot{
+	position: absolute;
+	left: 200px;
+	top: 200px;
+}
+.con #in{
+	position: absolute;
+	left: 400px;
+	top: 300px;
+}
+.con #out{
+	position: absolute;
+	left: 300px;
+	top: 100px;
+}
+.con #a{
+	position: absolute;
+	left: 600px;
+	top: 100px;
+}
+.con #b{
+	position: absolute;
+	left: 600px;
+	top: 400px;
+}
+.con #c{
+	position: absolute;
+	left: 800px;
+	top: 300px;
+}
+/* 底部部分 */
+.footer{
+	padding-top: 20px;
+	padding-bottom: 25px;
+	border-bottom: 1px solid #ccc;
+	background-color: #f8f8f8;
+	width:1100px;
+	margin:0 auto; 
+}
+.footer .footer-left{
+	width: 275px;
+	height: 133px;
+	padding: 6px 0;
+	
+	float: left;
+	background: #f2f2f2;
+	border: 1px solid #ccc;
+}
+.footer .footer-left img{
+	vertical-align: middle;
+	float: left;
+}
+.footer .footer-left p{
+	width: 135px;
+	float: left;
+	text-align: center;
+	margin-top: 45px;
+	font: 12px "微软雅黑";
+	color: #5c5c5c;
+}
+.footer .footer-right{
+	width: 332px;
+	height: 148px;
+	
+	background: url("../img/buy.png");
+}
+.footer .footer-right .hot-buy{
+	height: 34px;
+	text-align: center;
+	font: 14px/34px microsoft yahei;
+	color: #fff;
+	margin-top: 114px;
+	background: rgba(255, 0, 0, 0.8);
+}
+.footer .footer-middle{
+	width: 447px;
+	margin-left: 20px;
+}
+.footer .footer-middle ul li{
+	font: 12px/22px microsoft yahei;
+}
+.footer .footer-middle h4{
+	height: 40px;
+	font: 14px/40px microsoft yahei;
+}
+ .footer-middle-one ul li a{
+ 	display: inline-block;
+ 	color: #000;
+ 	text-decoration: none;
+ }
+ .footer-middle-one ul li a:hover{
+ 	color: red;
+ }
+.footer .footer-middle .footer-middle-two{
+	margin-left: 80px;
+}
+/* 页脚部分 */
+.bottom{
+	width: 1090px;
+	padding-top: 38px;
+	padding-bottom: 65px;
+	margin: 0 auto;
+}
+.bottom p{
+	font: 11px/25px microsoft yahei;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.clearfix:before,.clearfix:after{
+	display: table;
+	content: "";
+}
+.clearfix:after{
+	clear: both;
+}
+.clearfix{
+	*zoom: 1;
+}
